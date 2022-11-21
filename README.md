@@ -2,17 +2,17 @@
 
 2022 SSWU ConputerGraphics Project  
 
-### Earthy Scene  
+### 1. Earthy Scene  
 
-### Unearthy Scene  
+### 2. Unearthy Scene  
 
 - Heaven Scene  
 
 - Underground Scene  
 
-### FPS Controller Interaction  
+### 3. FPS Controller Interaction  
 
-### Minimap / UI Text
+### 4. Minimap / UI Text
 - Scene 내부 사용 메뉴얼 포함
  
 ## 현재 진행상황
