@@ -30,6 +30,10 @@
 ### 1. Scene 구상안 / 중간 발표 준비 ( ~ 2022.11.27 )  
 > Scene 구상안, 협업 환경, 팀원별 주요 과업  
 
-### 2. Scene Design ( ~ 2022.11.)  
+### 2. Scene Design ( ~ 2022.12.05 )  
+> SketchUp 사용  
+> Heaven, underground, Earthy, Tower 디자인 완료  
 
-### 3. 3D Object Placement ( ~ 2022.11. )  
+### 3. 3D Object Placement, Animation ( ~ 2022.12.09 )  
+> 위치에 맞게 3D Object 가져오기  
+> 움직이는 물체 Animation 적용  
