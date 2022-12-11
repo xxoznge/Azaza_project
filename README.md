@@ -37,7 +37,6 @@
 > Scene 구상안, 협업 환경, 팀원별 주요 과업  
 
 ### 2. Scene Design 
-> SketchUp 사용  
 > Heaven, underground, Earthy, Tower 디자인 완료  
 
 ### 3. 3D Object Placement,
@@ -47,4 +46,4 @@
 > 각자 맡은 씬 애니메이션 적용 / 3D 모델링 필수  
 
 ### 5. Shader, Material  
-
+> 모든 3D Object에 적용  
