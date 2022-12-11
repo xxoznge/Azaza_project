@@ -3,12 +3,16 @@
 2022 SSWU ConputerGraphics Project  
 
 ### 1. Earthy Scene  
-> Design, 3D Object placement 김예지  
-> 3D 모델링 필수  
+> Design, 3D Object placement,Animation, Shader 김예지  
+- Park
+- Apartment
+- Tower
+- School
 
 ### 2. Heaven Scene  
-> Design, 3D Object placement  전소정  
-> 3D 모델링 필수  
+> Design, 3D Object placement,Animation, Shader  전소정  
+- Castle
+- Island
 
 ### 3. Underground Scene  
 > Design, 3D Object placement,Animation, Shader 이소정  
@@ -19,8 +23,8 @@
 - Groundwater  
 
 ### 4. A Magnificent Tower
-> Design, 3D Object placement  심수림  
-> 3D 모델링 필수  
+> Design, 3D Object placement,Animation, Shader  심수림  
+
 
 ### 4. FPS Controller Interaction  
 
