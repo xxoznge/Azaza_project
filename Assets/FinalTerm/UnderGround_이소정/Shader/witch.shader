@@ -3,6 +3,7 @@ Shader "My/witch"
     Properties
     {
         _MainTex("Albedo (RGB)", 2D) = "white" {}
+       
     }
         SubShader
     {
@@ -17,10 +18,12 @@ Shader "My/witch"
         #pragma surface surf Nolight vertex:vert noshadow  noambient
 
         //sampler2D _MainTex;
+        
 
         struct Input
         {
             float4 color:COLOR;
+            
         };
 
         void vert(inout appdata_full v) {
@@ -29,6 +32,8 @@ Shader "My/witch"
 
         void surf(Input IN, inout SurfaceOutput o)
         {
+
+           
         }
 
         float4 LightingNolight(SurfaceOutput s, float3 lightDir, float atten) {
