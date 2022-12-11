@@ -6,23 +6,25 @@
 > Design, 3D Object placement 김예지  
 > 3D 모델링 필수  
 
-### 2. Unearthy Scene  
-
-- Heaven Scene  
+### 2. Heaven Scene  
 > Design, 3D Object placement  전소정  
 > 3D 모델링 필수  
 
-- Underground Scene  
-> Design, 3D Object placement  이소정  
-> 3D 모델링 필수  
+### 3. Underground Scene  
+> Design, 3D Object placement,Animation, Shader 이소정  
+- Cave  
+- Tower  
+- Castle  
+- Treasure  
+- Groundwater  
 
-### 3. A Magnificent Tower
+### 4. A Magnificent Tower
 > Design, 3D Object placement  심수림  
 > 3D 모델링 필수  
 
 ### 4. FPS Controller Interaction  
 
-### 5. Minimap / UI Text
+### 6. Minimap / UI Text
 - Scene 내부 사용 메뉴얼 포함
  
 ## 현재 진행상황
