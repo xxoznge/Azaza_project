@@ -42,8 +42,8 @@
 ### 3. 3D Object Placement,
 > 위치에 맞게 3D Object 가져오기  
 
-### 4. Animation, 3D 모델링  
+### 4. Animation, 3D 모델링  ( 하는 중 )
 > 각자 맡은 씬 애니메이션 적용 / 3D 모델링 필수  
 
-### 5. Shader, Material  
+### 5. Shader, Material  ( 하는 중 )
 > 모든 3D Object에 적용  
