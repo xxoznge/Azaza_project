@@ -1,4 +1,4 @@
-Shader "Custom/witch"
+Shader "My/witch"
 {
     Properties
     {
