@@ -112,7 +112,7 @@ AnimatorController:
   m_Name: S_Door_Pivot
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: SD
+  - m_Name: School
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -140,7 +140,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: SD
+    m_ConditionEvent: School
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1261535241268085829}
@@ -218,7 +218,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: SD
+    m_ConditionEvent: School
     m_EventTreshold: 2
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8545956278638748768}
