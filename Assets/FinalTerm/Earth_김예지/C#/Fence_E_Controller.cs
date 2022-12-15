@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Fence_E_Controller : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject DoorPivot;
+
+    private void OnTriggerEnter(Collider other)
     {
-        
+        DoorPivot.GetComponent<Animator>().SetInteger("Fence", 1);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerExit(Collider other)
     {
-        
+        DoorPivot.GetComponent<Animator>().SetInteger("Fence", 2);
     }
 }
