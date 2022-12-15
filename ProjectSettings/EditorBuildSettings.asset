@@ -4,17 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: "Assets/FinalTerm/Tower_\uC2EC\uC218\uB9BC/Tower.unity"
-    guid: de8eca69451c32a4489f5b2a9978e644
-  - enabled: 1
-    path: "Assets/FinalTerm/UnderGround_\uC774\uC18C\uC815/UnderGround.unity"
-    guid: e04b01e461ba18d4a8293cb84f1abfc1
-  - enabled: 1
-    path: "Assets/FinalTerm/Earth_\uAE40\uC608\uC9C0/Earth.unity"
-    guid: 9cdf3fe3e871cf14a8ef5d0d1634a921
-  - enabled: 1
-    path: "Assets/FinalTerm/Heaven_\u110C\u1165\u11AB\u1109\u1169\u110C\u1165\u11BC/Heaven.unity"
-    guid: f09637af8a2fc1a4a84b06cd6c591129
+  m_Scenes: []
   m_configObjects: {}
