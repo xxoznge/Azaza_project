@@ -63,7 +63,7 @@ Shader "My/witch"
             }
 
             float4 LightingToon(SurfaceOutput s, float3 lightDir, float atten) {
-                float ndotl = dot(s.Normal, lightDir) * 0.5 + 0.5;
+                float ndotl = dot(s.Normal, lightDir) * 1 + 0.1;
                 ndotl = ndotl * 5;
                 ndotl = ceil(ndotl) / 5;
 
