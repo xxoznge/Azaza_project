@@ -4,7 +4,7 @@
 
 ### 1. Earthy Scene  
 > Design, 3D Object placement,Animation, Shader 김예지  
-- Park
+- Park 
 - Apartment
 - Tower
 - School
@@ -82,7 +82,7 @@
 
 - 금속 질감의 Shader(Metalic, Smooth)를 만들 수 있는가? 소정
 
-- 표면의 요철을 잘 나타내는 Shader(NormalMap)를 만들 수 있는가? 예지
+- 표면의 요철을 잘 나타내는 Shader(NormalMap)를 만들 수 있는가? 
 
 - 두 개의 Texture를 Lerp 함수로 혼합할 두 텍스처가 50%씩 보이게 할 수 있는가? 소정
 
@@ -94,7 +94,7 @@
 
 - 3D 오브젝트의 외곽선을 표시하는 Shader를 만들 수 있는가? 
 
-- 3D 오브젝트의 음영이 분절적인 Shader를 만들 수 있는가? 
+- 3D 오브젝트의 음영이 분절적인 Shader를 만들 수 있는가?지예지
 
 - 3D 오브젝트의 외곽선을 표시하는 동시에 음영이 분절적으로 보이는 Shader를 만들 수 있는가? 소정
 
@@ -104,7 +104,7 @@
 
 - 카메라를 사용하여 거울을 만들 수 있는가?  ( 소정 해야함 )
 
-- Image Effect Shader와 C# 스크립트를 사용하여 색반전 효과(Invert Color)를 만들 수 있는가? 예지
+- Image Effect Shader와 C# 스크립트를 사용하여 색반전 효과(Invert Color)를 만들 수 있는가? 예지 해야함
 
 - Image Effect Shader와 C# 스크립트를 사용하여 깊이(Depth, 거리) 효과를 만들 수 있는가? 수림
 
@@ -112,7 +112,7 @@
 
 - Image Effect Shader와 C# 스크립트를 사용하여 이미지 합성(Blend) 효과를 만들 수 있는가? 소정
 
-- Image Effect Shader와 C# 스크립트를 사용하여 이미지 오버레이(Overlay) 효과를 만들 수 있는가? 예지
+- Image Effect Shader와 C# 스크립트를 사용하여 이미지 오버레이(Overlay) 효과를 만들 수 있는가? 예지 
 
 - Image Effect Shader와 C# 스크립트를 사용하여 멀티 패스(Multi-Pass)를 효과를 만들고 제어할 수 있는가? 수림
 
