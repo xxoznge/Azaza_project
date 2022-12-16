@@ -2,11 +2,10 @@ Shader "Custom/Venus"
 {
     Properties
     {
-        _Color ("Color", Color) = (1,1,1,1)
-        _MainTex ("Albedo (RGB)", 2D) = "white" {}
-        _Glossiness ("Smoothness", Range(0,1)) = 0.5
-        _Metallic ("Metallic", Range(0,1)) = 0.0
-    }
+        _MainTex1 ("Albedo (RGB)", 2D) = "white" {}
+        _MainTex2 ("Albedo (RGB)", 2D) = "white" {}
+        _LerpRange ("Lerp Range", Range(0, 1)) = 0
+     }
     SubShader
     {
         Tags { "RenderType"="Opaque" }
@@ -14,23 +13,21 @@ Shader "Custom/Venus"
         CGPROGRAM
         #pragma surface surf Standard fullforwardshadows
 
-        sampler2D _MainTex;
+        sampler2D _MainTex1;
+        sampler2D _MainTex2;
+        float _LerpRange;
 
         struct Input
         {
-            float2 uv_MainTex;
+            float2 uv_MainTex1;
+            float2 uv_MainTex2;
         };
-
-        half _Glossiness;
-        half _Metallic;
-        fixed4 _Color;
 
         void surf (Input IN, inout SurfaceOutputStandard o)
         {
-            fixed4 c = tex2D (_MainTex, IN.uv_MainTex) * _Color;
-            o.Albedo = c.rgb;
-            o.Metallic = _Metallic;
-            o.Smoothness = _Glossiness;
+            fixed4 c = tex2D (_MainTex1, IN.uv_MainTex1);
+            fixed4 d = tex2D (_MainTex2, IN.uv_MainTex2);
+            o.Albedo = lerp(c.rgb, d.rgb, _LerpRange);
             o.Alpha = c.a;
         }
         ENDCG
