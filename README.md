@@ -56,17 +56,17 @@
 
 - Paint Terrain의 Paint Texture로 3개 이상의 Layer를 만들고 Terrain에 칠할 수 있는가? 소정
  
-- Paint Terrain의 Set Height로 일정한 높이의 평지를 만들 수 있는가?   
+- Paint Terrain의 Set Height로 일정한 높이의 평지를 만들 수 있는가?  소정
 
-- Paint Terrain의 Smooth Height로 지형의 고저를 완만하게 처리할 수 있는가?   
+- Paint Terrain의 Smooth Height로 지형의 고저를 완만하게 처리할 수 있는가?  소정
 
-- Paint Tree로 3개 이상의 Tree를 Terrain에 그릴 수 있는가?  
+- Paint Tree로 3개 이상의 Tree를 Terrain에 그릴 수 있는가?  소정
 
 - Water를 활용하여 강, 호수, 바다 등을 표현할 수 있는가?  소정
 
-- Wind Zone을 활용하여 바람 효과를 만들 수 있는가?  
+- Wind Zone을 활용하여 바람 효과를 만들 수 있는가?  소정
 
-- Asset Store에서 적절한 건축물(Free Suburban Structure Kit) 애셋을 다운로드 받아 지형에 추가할 수 있는가?  
+- Asset Store에서 적절한 건축물(Free Suburban Structure Kit) 애셋을 다운로드 받아 지형에 추가할 수 있는가?  소정
 
 - 3D 오브젝트를 활용하여 간단한 구조물(예: 원두막 등)을 FPSController의 스케일에 부합하게 만들 수 있는가?  
 
