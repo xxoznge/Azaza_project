@@ -64,17 +64,17 @@
 
 - Water를 활용하여 강, 호수, 바다 등을 표현할 수 있는가?  소정
 
-- Wind Zone을 활용하여 바람 효과를 만들 수 있는가?  소정
+- Wind Zone을 활용하여 바람 효과를 만들 수 있는가?
 
-- Asset Store에서 적절한 건축물(Free Suburban Structure Kit) 애셋을 다운로드 받아 지형에 추가할 수 있는가?  소정
+- Asset Store에서 적절한 건축물(Free Suburban Structure Kit) 애셋을 다운로드 받아 지형에 추가할 수 있는가?
 
 - 3D 오브젝트를 활용하여 간단한 구조물(예: 원두막 등)을 FPSController의 스케일에 부합하게 만들 수 있는가?  
 
 - Prefab을 만들 수 있는가?  
 
-- 3D 오브젝트(가령, Cube 등)에 Transform 컴포넌트와 관련된 애니메이션(가령, 회전 등) 기능을 추가할 수 있는가? 
+- 3D 오브젝트(가령, Cube 등)에 Transform 컴포넌트와 관련된 애니메이션(가령, 회전 등) 기능을 추가할 수 있는가? 소정
 
-- Animator 컴포넌트의 speed 속성을 키보드, 마우스, 충돌판단 등으로 제어하여 재생, 정지 등의 기능을 구현할 수 있는가? 
+- Animator 컴포넌트의 speed 속성을 키보드, 마우스, 충돌판단 등으로 제어하여 재생, 정지 등의 기능을 구현할 수 있는가? 소정
 
 - Animation State Machine(Animator 창)을 사용하여 애니메이션 클립의 재생 순서를 구성하고 제어할 수 있는가? 
 
@@ -84,7 +84,7 @@
 
 - 표면의 요철을 잘 나타내는 Shader(NormalMap)를 만들 수 있는가? 
 
-- 두 개의 Texture를 Lerp 함수로 혼합할 두 텍스처가 50%씩 보이게 할 수 있는가? 
+- 두 개의 Texture를 Lerp 함수로 혼합할 두 텍스처가 50%씩 보이게 할 수 있는가? 소정
 
 - Alpha 값이 있는 Texture의 배경에 다른 Texture가 보이도록 혼합할 수 있는가?  소정
 
