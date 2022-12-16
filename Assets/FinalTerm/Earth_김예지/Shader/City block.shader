@@ -8,12 +8,34 @@ Shader "Earth/City block"
     {
         Tags { "RenderType" = "Opaque" }
 
-        // 2nd pass
+        // 1st pass
+        cull front
 
+        CGPROGRAM
+        #pragma surface surf Nolight vertex:vert noshadow noambient
+
+        struct Input
+        {
+        float4 color:COLOR;
+    };
+
+    void vert(inout appdata_full v) {
+        v.vertex.xyz += v.normal.xyz * 1;
+    }
+
+    void surf(Input IN, inout SurfaceOutput o){
+    }
+
+    float4 LightingNolight(SurfaceOutput s, float3 lightDir, float atten) {
+        return float4(0,0,0,1);
+    }
+    ENDCG
+
+        // 2nd pass
         cull back
 
         CGPROGRAM
-        #pragma surface surf Toon noambient 
+        #pragma surface surf Lambert
 
         sampler2D _MainTex;
 
@@ -28,32 +50,6 @@ Shader "Earth/City block"
             o.Albedo = c.rgb;
             o.Alpha = c.a;
         }
-
-
-        float4 LightingToon(SurfaceOutput s, float3 lightDir, float atten) {
-            float ndotl = dot(s.Normal, lightDir) * 0.5 + 0.5;
-            if (ndotl > 0.7) {
-                ndotl = 0.9;
-            }
-            else if (ndotl > 0.4) {
-                ndotl = 0.4;
-            }
-            else
-            {
-                ndotl = 0.0;
-            }
-            return ndotl;
-        }
-
-        /*
-        float4 LightingToon (SurfaceOutput s, float3 lightDir, float atten){
-            float ndotl = dot(s.Normal, lightDir) * 0.5 + 0.5;
-            ndotl = ndotl * 5;
-            ndotl = ceil(ndotl)/5;
-            return ndotl;
-        }
-        */
-
         ENDCG
     }
         FallBack "Diffuse"
