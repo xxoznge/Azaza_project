@@ -5,9 +5,14 @@
 ### 1. Earthy Scene  
 > Design, 3D Object placement,Animation, Shader 김예지  
 - Park 
+-> 놀이터, 호수, 조각상이 있는 산책로 구성
 - Apartment
+-> 차가 지니다닐 수 있고, 학교로 향하는 횡단보도, 신호등이 있다. 
+-> 사람들의 생활공간
 - Tower
+-> 탑 내부로 향하는 포탈과 지하씬으로 향하는 포탈이 존재
 - School
+-> 
 
 ### 2. Heaven Scene  
 > Design, 3D Object placement,Animation, Shader  전소정  
