@@ -50,33 +50,33 @@
  
 ## 평가요소  
 
-- Terrain 오브젝트를 씬에 추가할 수 있는가? 소정
+- Terrain 오브젝트를 씬에 추가할 수 있는가? 소정 예지
 
-- Paint Terrain의 Raise or Lower Terrain을 사용하여 지형의 고저를 표현할 수 있는가? 소정
+- Paint Terrain의 Raise or Lower Terrain을 사용하여 지형의 고저를 표현할 수 있는가? 소정 예지
 
-- Paint Terrain의 Paint Texture로 3개 이상의 Layer를 만들고 Terrain에 칠할 수 있는가? 소정
+- Paint Terrain의 Paint Texture로 3개 이상의 Layer를 만들고 Terrain에 칠할 수 있는가? 소정 예지
  
-- Paint Terrain의 Set Height로 일정한 높이의 평지를 만들 수 있는가?  소정
+- Paint Terrain의 Set Height로 일정한 높이의 평지를 만들 수 있는가?  소정 예지
 
-- Paint Terrain의 Smooth Height로 지형의 고저를 완만하게 처리할 수 있는가?  소정
+- Paint Terrain의 Smooth Height로 지형의 고저를 완만하게 처리할 수 있는가?  소정 예지
 
-- Paint Tree로 3개 이상의 Tree를 Terrain에 그릴 수 있는가?  소정
+- Paint Tree로 3개 이상의 Tree를 Terrain에 그릴 수 있는가?  소정 예지
 
-- Water를 활용하여 강, 호수, 바다 등을 표현할 수 있는가?  소정
+- Water를 활용하여 강, 호수, 바다 등을 표현할 수 있는가?  소정 예지
 
-- Wind Zone을 활용하여 바람 효과를 만들 수 있는가?
+- Wind Zone을 활용하여 바람 효과를 만들 수 있는가? 예지
 
-- Asset Store에서 적절한 건축물(Free Suburban Structure Kit) 애셋을 다운로드 받아 지형에 추가할 수 있는가?
+- Asset Store에서 적절한 건축물(Free Suburban Structure Kit) 애셋을 다운로드 받아 지형에 추가할 수 있는가? 
 
-- 3D 오브젝트를 활용하여 간단한 구조물(예: 원두막 등)을 FPSController의 스케일에 부합하게 만들 수 있는가?  
+- 3D 오브젝트를 활용하여 간단한 구조물(예: 원두막 등)을 FPSController의 스케일에 부합하게 만들 수 있는가? 예지
 
-- Prefab을 만들 수 있는가?  
+- Prefab을 만들 수 있는가? 예지
 
-- 3D 오브젝트(가령, Cube 등)에 Transform 컴포넌트와 관련된 애니메이션(가령, 회전 등) 기능을 추가할 수 있는가? 소정
+- 3D 오브젝트(가령, Cube 등)에 Transform 컴포넌트와 관련된 애니메이션(가령, 회전 등) 기능을 추가할 수 있는가? 소정 예지
 
 - Animator 컴포넌트의 speed 속성을 키보드, 마우스, 충돌판단 등으로 제어하여 재생, 정지 등의 기능을 구현할 수 있는가? 소정
 
-- Animation State Machine(Animator 창)을 사용하여 애니메이션 클립의 재생 순서를 구성하고 제어할 수 있는가? 
+- Animation State Machine(Animator 창)을 사용하여 애니메이션 클립의 재생 순서를 구성하고 제어할 수 있는가? 예지
 
 - 머티리얼을 통해 변수를 입력 받아 밝기(_Brightness)를 제어할 수 있는 셰이더를 만들 수 있는가? 
 
