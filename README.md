@@ -66,7 +66,7 @@
 
 - Wind Zone을 활용하여 바람 효과를 만들 수 있는가? 예지
 
-- Asset Store에서 적절한 건축물(Free Suburban Structure Kit) 애셋을 다운로드 받아 지형에 추가할 수 있는가? 
+- Asset Store에서 적절한 건축물(Free Suburban Structure Kit) 애셋을 다운로드 받아 지형에 추가할 수 있는가? 소정
 
 - 3D 오브젝트를 활용하여 간단한 구조물(예: 원두막 등)을 FPSController의 스케일에 부합하게 만들 수 있는가? 예지
 
