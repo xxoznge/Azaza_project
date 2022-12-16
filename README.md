@@ -104,25 +104,25 @@
 
 - 카메라를 사용하여 거울을 만들 수 있는가?  ( 소정 해야함 )
 
-- Image Effect Shader와 C# 스크립트를 사용하여 색반전 효과(Invert Color)를 만들 수 있는가? 
+- Image Effect Shader와 C# 스크립트를 사용하여 색반전 효과(Invert Color)를 만들 수 있는가? 예지
 
-- Image Effect Shader와 C# 스크립트를 사용하여 깊이(Depth, 거리) 효과를 만들 수 있는가? 
+- Image Effect Shader와 C# 스크립트를 사용하여 깊이(Depth, 거리) 효과를 만들 수 있는가? 수림
 
-- Image Effect Shader와 C# 스크립트를 사용하여 무채색(GrayScale) 효과를 만들 수 있는가? 
+- Image Effect Shader와 C# 스크립트를 사용하여 무채색(GrayScale) 효과를 만들 수 있는가? 소정
 
-- Image Effect Shader와 C# 스크립트를 사용하여 이미지 합성(Blend) 효과를 만들 수 있는가? 
+- Image Effect Shader와 C# 스크립트를 사용하여 이미지 합성(Blend) 효과를 만들 수 있는가? 소정
 
-- Image Effect Shader와 C# 스크립트를 사용하여 이미지 오버레이(Overlay) 효과를 만들 수 있는가? 
+- Image Effect Shader와 C# 스크립트를 사용하여 이미지 오버레이(Overlay) 효과를 만들 수 있는가? 예지
 
-- Image Effect Shader와 C# 스크립트를 사용하여 멀티 패스(Multi-Pass)를 효과를 만들고 제어할 수 있는가? 
+- Image Effect Shader와 C# 스크립트를 사용하여 멀티 패스(Multi-Pass)를 효과를 만들고 제어할 수 있는가? 수림
 
-- Image Effect Shader와 C# 스크립트를 사용하여 명도(Brightness), 대비(Contrast), 채도(Saturation)를 효과를 만들고 제어할 수 있는가? 
+- Image Effect Shader와 C# 스크립트를 사용하여 명도(Brightness), 대비(Contrast), 채도(Saturation)를 효과를 만들고 제어할 수 있는가? 전소정 ( 두개 해주세용 )
 
 - UI 오브젝트를 사용하여 보다 수월한 상호작용 환경을 제공하는가? 
 
 - 3D 오디오 효과를 만들 수 있는가? ( 수림 모든 씬에 해야함 )
 
-- 각 팀원은 적어도 하나의 3D 오브젝트를 스크립트로 구현할 수 있는가? (Vertex, Triangle, Normal, UV) 
+- 각 팀원은 적어도 하나의 3D 오브젝트를 스크립트로 구현할 수 있는가? (Vertex, Triangle, Normal, UV) 소정
 
 - 프로젝트의 각 씬은 컴퓨터그래픽스 효과를 잘 보여줄 수 있도록 기획했는가? 
 
