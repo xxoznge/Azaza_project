@@ -3328,8 +3328,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880681211}
-  m_LocalRotation: {x: 0.023176648, y: -0.9765008, z: -0.17552364, w: -0.12288397}
-  m_LocalPosition: {x: -189.92084, y: -581.01086, z: 2461.687}
+  m_LocalRotation: {x: -0.08606826, y: 0.66057396, z: 0.07663739, w: 0.74186325}
+  m_LocalPosition: {x: 369.44974, y: -26.355934, z: 1735.1417}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 891670721}
@@ -3997,7 +3997,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652874613441}
   m_Layer: 0
-  m_Name: duck
+  m_Name: Duck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4170,7 +4170,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -679899781759811278, guid: 140e585abed7cc544b1a24e686acc4b1, type: 3}
+  - {fileID: 2100000, guid: 7dbc24ff27d3c174c850015fedb36e67, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9371,7 +9371,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -1378827158071277806, guid: 140e585abed7cc544b1a24e686acc4b1, type: 3}
+  - {fileID: 2100000, guid: c2d0691437fd5714990286ad02e3f8c1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11735,7 +11735,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8970508137595900782, guid: 140e585abed7cc544b1a24e686acc4b1, type: 3}
+  - {fileID: 2100000, guid: cbc8a080bbccec146b800d76e7e30915, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12007,7 +12007,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6365874136849876906, guid: 140e585abed7cc544b1a24e686acc4b1, type: 3}
+  - {fileID: 2100000, guid: 620446212b20968448f0eee73ef55370, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
