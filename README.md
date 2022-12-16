@@ -82,7 +82,7 @@
 
 - 금속 질감의 Shader(Metalic, Smooth)를 만들 수 있는가? 소정
 
-- 표면의 요철을 잘 나타내는 Shader(NormalMap)를 만들 수 있는가? 
+- 표면의 요철을 잘 나타내는 Shader(NormalMap)를 만들 수 있는가? 예지
 
 - 두 개의 Texture를 Lerp 함수로 혼합할 두 텍스처가 50%씩 보이게 할 수 있는가? 소정
 
