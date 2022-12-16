@@ -35,7 +35,7 @@ Shader "Earth/City block"
         cull back
 
         CGPROGRAM
-        #pragma surface surf Lambert
+        #pragma surface surf Toon noambient 
 
         sampler2D _MainTex;
 
@@ -50,7 +50,23 @@ Shader "Earth/City block"
             o.Albedo = c.rgb;
             o.Alpha = c.a;
         }
-        ENDCG
+
+        float4 LightingToon(SurfaceOutput s, float3 lightDir, float atten) {
+            float ndotl = dot(s.Normal, lightDir) * 0.5 + 0.5;
+            if (ndotl > 0.7) {
+                ndotl = 0.9;
+            }
+            else if (ndotl > 0.4) {
+                ndotl = 0.4;
+            }
+            else
+            {
+                ndotl = 0.0;
+            }
+            return ndotl;
+        }
+
+    ENDCG
     }
-        FallBack "Diffuse"
+    FallBack "Diffuse"
 }
