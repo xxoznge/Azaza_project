@@ -3,42 +3,70 @@ Shader "Earth/City block"
     Properties
     {
         _MainTex("Albedo (RGB)", 2D) = "white" {}
-        _Glossiness("Smoothness", Range(0,1)) = 0.5
-        _Metallic("Metallic", Range(0,1)) = 0.0
-        _BumpMap("NormapMap", 2D) = "bump" {}
-        _Occlusion("Occlusion", 2D) = "white" {}
     }
         SubShader
     {
         Tags { "RenderType" = "Opaque" }
 
+        // 1st pass
+        cull front
+
         CGPROGRAM
-        #pragma surface surf Standard 
+        #pragma surface surf Nolight vertex:vert noshadow noambient
+
+        struct Input
+        {
+        float4 color:COLOR;
+    };
+
+    void vert(inout appdata_full v) {
+        v.vertex.xyz += v.normal.xyz * 1;
+    }
+
+    void surf(Input IN, inout SurfaceOutput o){
+    }
+
+    float4 LightingNolight(SurfaceOutput s, float3 lightDir, float atten) {
+        return float4(0,0,0,1);
+    }
+    ENDCG
+
+        // 2nd pass
+        cull back
+
+        CGPROGRAM
+        #pragma surface surf Toon noambient 
 
         sampler2D _MainTex;
-        sampler2D _BumpMap;
-        sampler2D _Occlusion;
-        float _Metallic;
-        float _Glossiness;
 
         struct Input
         {
             float2 uv_MainTex;
-            float2 uv_BumpMap;
         };
 
-        void surf(Input IN, inout SurfaceOutputStandard o)
+        void surf(Input IN, inout SurfaceOutput o)
         {
             fixed4 c = tex2D(_MainTex, IN.uv_MainTex);
-            o.Occlusion = tex2D(_Occlusion, IN.uv_MainTex);
-            float3 n = UnpackNormal(tex2D(_BumpMap, IN.uv_BumpMap));
-            o.Normal = n;
             o.Albedo = c.rgb;
-            o.Metallic = _Metallic;
-            o.Smoothness = _Glossiness;
             o.Alpha = c.a;
         }
-        ENDCG
+
+        float4 LightingToon(SurfaceOutput s, float3 lightDir, float atten) {
+            float ndotl = dot(s.Normal, lightDir) * 0.5 + 0.5;
+            if (ndotl > 0.7) {
+                ndotl = 0.9;
+            }
+            else if (ndotl > 0.4) {
+                ndotl = 0.4;
+            }
+            else
+            {
+                ndotl = 0.0;
+            }
+            return ndotl;
+        }
+
+    ENDCG
     }
-        FallBack "Diffuse"
+    FallBack "Diffuse"
 }
