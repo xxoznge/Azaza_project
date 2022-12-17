@@ -12303,7 +12303,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1293812440}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -85, y: 44, z: -1050}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2600910}
@@ -12321,7 +12321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87c613cb8cdc46941be28bf70bbfcb77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BlendTexture: {fileID: 0}
+  BlendTexture: {fileID: 2800000, guid: be0f80bfc49390243b062882536a1d15, type: 3}
   blendOpacity: 1
 --- !u!81 &1293812443
 AudioListener:
@@ -12365,7 +12365,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
+  m_TargetDisplay: 1
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 1
@@ -17268,7 +17268,7 @@ RectTransform:
   m_GameObject: {fileID: 1815099265}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 1116929752}
   m_RootOrder: 0
