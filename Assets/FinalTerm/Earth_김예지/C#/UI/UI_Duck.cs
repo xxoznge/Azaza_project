@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UI_Lake : MonoBehaviour
+public class UI_Duck : MonoBehaviour
 {
     public GameObject MyGameObject;
 
@@ -11,7 +11,7 @@ public class UI_Lake : MonoBehaviour
     void Start()
     {
         string name = MyGameObject.name;
-        name += "Lake";
+        name += "Duck";
         GetComponent<Text>().text = MyGameObject.name;
     }
 
