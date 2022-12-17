@@ -14,7 +14,7 @@ public class LoadScene_Portal: MonoBehaviour
         print("CurrentScene = " + CurrentScene.name);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         SceneManager.LoadScene(SceneToLoad.name);
     }
