@@ -54,8 +54,12 @@
 1. terrain 구축
 - Underground Scene
 - Terrain 추가
-- Raise or Lower Terrain /  Paint Texture로 3개 이상의 Layer / Set Height
- / Smooth Height / Paint Tree로 3개 이상 / Water를 활용하여 강, 호수, 바다 
+- Raise or Lower Terrain 
+- Paint Texture로 3개 이상의 Layer 
+- Set Height
+ - Smooth Height 
+ - Paint Tree로 3개 이상 
+ - Water를 활용하여 강, 호수, 바다 
 
 2. 마녀가 사는 성 : 보물의 주인 / 마녀는 저주에 걸려서 동상이 됨. 
 
