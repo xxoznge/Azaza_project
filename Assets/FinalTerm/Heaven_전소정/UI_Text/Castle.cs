@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UI_Duck : MonoBehaviour
+public class Castle : MonoBehaviour
 {
     public GameObject MyGameObject;
 
