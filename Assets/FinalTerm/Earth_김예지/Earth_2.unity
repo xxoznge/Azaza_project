@@ -8901,7 +8901,8 @@ MonoBehaviour:
     Sparkle \uC624\uBE0C\uC81D\uD2B8\uC5D0 \uC560\uB2C8\uBA54\uC774\uC158\uC744 \uB354\uD588\uB2E4.\n\n*
     \uD559\uAD50 :  3D \uC624\uBE0C\uC81D\uD2B8\uB85C \uB9CC\uB4E4\uC5C8\uB2E4. \uB0B4\uBD80\uC5D0
     \uACC4\uB2E8\uC744 \uC81C\uC791\uD574 1\uCE35\uACFC 2\uCE35\uC744 \uC774\uB3D9\uD560
-    \uC218 \uC788\uB2E4.\n\n"
+    \uC218 \uC788\uB2E4.\n\n* \uB3C4\uC2DC :  \uBD84\uC9C8\uC801 \uC74C\uC601\uC744
+    \uC801\uC6A9\uD558\uC600\uB2E4."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 52c772c2d95c27e4e98d553c1bfd775c, type: 2}
   m_sharedMaterial: {fileID: -3599129076804118271, guid: 52c772c2d95c27e4e98d553c1bfd775c,
