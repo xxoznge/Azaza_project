@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class S_Door_Controller : MonoBehaviour
 {
-    public GameObject DoorPivot;
-
-    private void OnTriggerEnter(Collider other)
+    // Start is called before the first frame update
+    void Start()
     {
-        DoorPivot.GetComponent<Animator>().SetInteger("School", 1);
+        
     }
 
-    private void OnTriggerExit(Collider other)
+    // Update is called once per frame
+    void Update()
     {
-        DoorPivot.GetComponent<Animator>().SetInteger("School", 2);
+        
     }
 }
