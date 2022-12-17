@@ -10,8 +10,6 @@ public class UI_Duck : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string name = MyGameObject.name;
-        name += "Duck";
         GetComponent<Text>().text = MyGameObject.name;
     }
 

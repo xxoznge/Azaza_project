@@ -10,8 +10,6 @@ public class UI_Lake : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string name = MyGameObject.name;
-        name += "Lake";
         GetComponent<Text>().text = MyGameObject.name;
     }
 

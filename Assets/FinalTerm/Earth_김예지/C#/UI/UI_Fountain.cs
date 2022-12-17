@@ -10,8 +10,6 @@ public class UI_Fountain : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string name = MyGameObject.name;
-        name += "Fountain";
         GetComponent<Text>().text = MyGameObject.name;
     }
 
