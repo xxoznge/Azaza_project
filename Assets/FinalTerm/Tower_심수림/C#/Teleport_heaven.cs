@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class Teleport_heaven : MonoBehaviour
 {
-    CharacterController characterController;
+    public GameObject PlayerMove;
 
     void Start()
     {
-        characterController = GetComponent<CharacterController>();
+
     }
 
     private void OnTriggerEnter(Collider other)
     {
-       characterController.transform.position = new Vector3 (36.64f, 85.2f, -25.42f); //Vector3.MoveTowards(transform.position, destination, 1);
+       PlayerMove.transform.position = new Vector3 (27.59f, 83.03f, -29.11f);
+        //Vector3.MoveTowards(transform.position, destination, 1);
     }
 }

@@ -5767,8 +5767,8 @@ GameObject:
   m_Component:
   - component: {fileID: 901624393}
   - component: {fileID: 901624392}
-  - component: {fileID: 901624394}
   - component: {fileID: 901624395}
+  - component: {fileID: 901624394}
   m_Layer: 10
   m_Name: Diamond_tower
   m_TagString: Untagged
@@ -5814,6 +5814,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41f2fcc6a01c94ecd827b1f8da27a055, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerMove: {fileID: 1472806237}
 --- !u!65 &901624395
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8136,6 +8137,12 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2432090755550338912, guid: 805ae636bc069456f9a9018b0f6c9288, type: 3}
+--- !u!1 &1472806237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 331058500}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1479761796
 PrefabInstance:
   m_ObjectHideFlags: 0
