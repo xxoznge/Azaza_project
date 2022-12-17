@@ -8894,15 +8894,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "*  \uD0C0\uC6CC :  \uC9C0\uD558\uB85C \uD5A5\uD558\uB294 \uD3EC\uD0C8
-    \uD074\uB9AD \uC2DC UnderGround \uC52C\uC73C\uB85C \uC774\uB3D9\n\uD0D1 \uB0B4\uBD80\uB85C
-    \uD5A5\uD558\uB294 \uD3EC\uD0C8 \uD074\uB9AD \uC2DC Tower \uC52C\uC73C\uB85C
-    \uC774\uB3D9\n\n* \uBD84\uC218 : \uBB3C \uD30C\uD2F0\uD074\uACFC \uB9CC\uB4E0
-    Sparkle \uC624\uBE0C\uC81D\uD2B8\uC5D0 \uC560\uB2C8\uBA54\uC774\uC158\uC744 \uB354\uD588\uB2E4.\n\n*
-    \uD559\uAD50 :  3D \uC624\uBE0C\uC81D\uD2B8\uB85C \uB9CC\uB4E4\uC5C8\uB2E4. \uB0B4\uBD80\uC5D0
-    \uACC4\uB2E8\uC744 \uC81C\uC791\uD574 1\uCE35\uACFC 2\uCE35\uC744 \uC774\uB3D9\uD560
-    \uC218 \uC788\uB2E4.\n\n* \uB3C4\uC2DC :  \uBD84\uC9C8\uC801 \uC74C\uC601\uC744
-    \uC801\uC6A9\uD558\uC600\uB2E4."
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 52c772c2d95c27e4e98d553c1bfd775c, type: 2}
   m_sharedMaterial: {fileID: -3599129076804118271, guid: 52c772c2d95c27e4e98d553c1bfd775c,
@@ -59578,6 +59570,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66c7005e3d044f04ead7a2b11fef96d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  V0: {x: 0, y: 0, z: 0}
+  V1: {x: 0, y: 0, z: 0}
+  V2: {x: 0, y: 0, z: 0}
+  V3: {x: 0, y: 0, z: 0}
+  V4: {x: 0, y: 0, z: 0}
+  V5: {x: 0, y: 0, z: 0}
+  newVertices: []
+  newTriangles: 
 --- !u!4 &7414742206112046721
 Transform:
   m_ObjectHideFlags: 0
