@@ -13,11 +13,10 @@
 -> 탑 내부로 향하는 포탈과 지하씬으로 향하는 포탈이 존재
 - School
 -> 
+> Design, 3D Object placement 김예지  
+> 3D 모델링 필수  
 
-### 2. Heaven Scene  
-> Design, 3D Object placement,Animation, Shader  전소정  
-- Castle
-- Island
+### 2. Unearthy Scene  
 
 ### 3. Underground Scene  
 > Design, 3D Object placement,Animation, Shader 이소정  
@@ -42,15 +41,22 @@
 > 긴 계단으로 이어져있다.  
 - LAVA  
 > 마녀의 성 옆엔 용암이 분출한다. 
+- Heaven Scene  
+> Design, 3D Object placement  전소정  
+> 3D 모델링 필수  
 
-### 4. A Magnificent Tower
-> Design, 3D Object placement,Animation, Shader  심수림  
+- Underground Scene  
+> Design, 3D Object placement  이소정  
+> 3D 모델링 필수  
 
+### 3. A Magnificent Tower
+> Design, 3D Object placement  심수림  
+> 3D 모델링 필수  
 
 ### 4. FPS Controller Interaction  / Camera / Mirror
 > 이소정  
 
-### 6. Minimap / UI Text
+### 5. Minimap / UI Text
 - Scene 내부 사용 메뉴얼 포함
 > 김예지  
 
@@ -195,3 +201,13 @@
 
 - 프로젝트의 각 씬은 컴퓨터그래픽스 효과를 잘 보여줄 수 있도록 기획했는가? 
 > 당연하죠 ! 
+### 1. Scene 구상안 / 중간 발표 준비 ( ~ 2022.11.27 )  
+> Scene 구상안, 협업 환경, 팀원별 주요 과업  
+
+### 2. Scene Design ( ~ 2022.12.05 )  
+> SketchUp 사용  
+> Heaven, underground, Earthy, Tower 디자인 완료  
+
+### 3. 3D Object Placement, Animation ( ~ 2022.12.09 )  
+> 위치에 맞게 3D Object 가져오기  
+> 움직이는 물체 Animation 적용  
