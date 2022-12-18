@@ -239,7 +239,7 @@ Ceramic-frog - 흑백 셰이더
 > 이소정
 
 - Post-Process Layer 및 Post-Process Volume 컴포넌트를 사용하여 카메라에 후처리 효과를 줄 수 있는가? 
-> ( 소정 해야함 )
+> 소정
 
 - 카메라를 사용하여 미니맵을 만들 수 있는가? 
 > 예지
@@ -251,13 +251,13 @@ Ceramic-frog - 흑백 셰이더
 > 예지
 
 - Image Effect Shader와 C# 스크립트를 사용하여 깊이(Depth, 거리) 효과를 만들 수 있는가? 
-> 수림 해야함
+> 수림
 
 - Image Effect Shader와 C# 스크립트를 사용하여 무채색(GrayScale) 효과를 만들 수 있는가? 
-> 소정 해야함
+> 소정
 
 - Image Effect Shader와 C# 스크립트를 사용하여 이미지 합성(Blend) 효과를 만들 수 있는가? 
-> 소정 해야함
+> 소정
 
 - Image Effect Shader와 C# 스크립트를 사용하여 이미지 오버레이(Overlay) 효과를 만들 수 있는가? 
 > 예지 
@@ -272,7 +272,7 @@ Ceramic-frog - 흑백 셰이더
 > 예지
 
 - 3D 오디오 효과를 만들 수 있는가? 
-> ( 수림 모든 씬에 해야함 )
+> 수림
 
 - 각 팀원은 적어도 하나의 3D 오브젝트를 스크립트로 구현할 수 있는가? (Vertex, Triangle, Normal, UV) 
 > 이소정 예지 수림 전소정
