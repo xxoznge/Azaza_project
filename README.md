@@ -4,15 +4,44 @@
 
 ### 1. Earthy Scene  
 > Design, 3D Object placement,Animation, Shader 김예지  
-- Park 
--> 놀이터, 호수, 조각상이 있는 산책로 구성
-- Apartment
--> 차가 지니다닐 수 있고, 학교로 향하는 횡단보도, 신호등이 있다. 
--> 사람들의 생활공간
-- Tower
--> 탑 내부로 향하는 포탈과 지하씬으로 향하는 포탈이 존재
-- School
--> 
+1. Terrain 구축
+
+* Earth Scene
+*  Terrain 추가
+*  Raise or Lower Terrain 적용
+*  Paint Texture로 6개의 Layer 적용
+*  set Height로 탑 주변 지형 정리
+* Paint Tree로 4가지의 나무 생성
+*  Water를 이용하여 호수 생성
+
+2. 탑
+
+* 성 : Normal Map 셰이더 적용
+* 포탈 : 계단 옆 쪽에 있는 포탈을 사용하면 UnderGround Scene으로 이동
+	   탑 앞의 포탈을 이용하여 Tower Scene으로 이동
+* 계단 : Set Height를 이용하여 탑으로 향하는 계단 제작
+
+3. 공원
+
+* 분수 : Water 오브젝트 2가지를 이용하여 분수에 고여있는 물 제작
+	  3D 오브젝트와 애니메이션 효과를 이용하여 물방울이 튀는 것을 제작
+	  파티클의 Water-BigSplash를 이용하여 물이 튀는 형상 표현
+* 호수 : WaterBasicDaytime을 이용하여 호수 제작
+
+* 조각상 : 	
+Format FBX - 금속 질감의 Shader 
+		
+Ceramic-frog - 흑백 셰이더
+
+4. 학교 - 3D object 제작
+
+* 펜스 : 학교로 들어갈 수 있도록 입구가 움직이도록 제작
+*학교 : 1층과 2층을 이동할 수 있도록 계단 제작
+
+5. 도시
+
+* 도시 : 분질적 음영을 적용
+
 
 ### 2. Heaven Scene  
 > Design, 3D Object placement,Animation, Shader  전소정  
