@@ -59703,6 +59703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7414742204634429448}
   - component: {fileID: 7414742204634429455}
+  - component: {fileID: 7414742204634429450}
   m_Layer: 0
   m_Name: Pyramid
   m_TagString: Untagged
@@ -59710,6 +59711,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7414742204634429450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7414742204634429449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b49768ec848adaa4580dd387958cf4b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneToLoad: {fileID: 102900000, guid: a6551cc116239c44986e19d90f674b74, type: 3}
 --- !u!114 &7414742204634429455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59982,6 +59996,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7414742205879052154}
   - component: {fileID: 7414742205879052152}
+  - component: {fileID: 7414742205879052156}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -59989,6 +60004,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7414742205879052156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7414742205879052155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc92322b33fc15488fcae7ca3b3a868, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneToLoad: {fileID: 102900000, guid: de8eca69451c32a4489f5b2a9978e644, type: 3}
 --- !u!4 &7414742205950787241
 Transform:
   m_ObjectHideFlags: 0
