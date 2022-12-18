@@ -44,8 +44,8 @@ Ceramic-frog - 흑백 셰이더
 
 6. Image Effect Shader
 
-* Overlay : Display
-* Invert : Display
+* Overlay : Display 2
+* Invert : Display 3
 
 
 ### 2. Heaven Scene  
