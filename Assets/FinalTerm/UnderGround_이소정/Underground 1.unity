@@ -6326,6 +6326,7 @@ GameObject:
   - component: {fileID: 1042784459}
   - component: {fileID: 1042784461}
   - component: {fileID: 1042784460}
+  - component: {fileID: 1042784462}
   m_Layer: 0
   m_Name: Camera_Blend
   m_TagString: Untagged
@@ -6354,7 +6355,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1042784458}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1042784461
 Camera:
   m_ObjectHideFlags: 0
@@ -6398,6 +6399,20 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1042784462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042784458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a5f16ae767fc384692821a685bcd06a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BlendTexture: {fileID: 0}
+  blendOpacity: 1
 --- !u!1001 &1044684068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7832,7 +7847,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -677.2, y: -519.6}
+  m_AnchoredPosition: {x: -677.2, y: -485.5}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1235606207
@@ -8677,7 +8692,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Tree
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 52c772c2d95c27e4e98d553c1bfd775c, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -8741,7 +8756,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1381167475
@@ -12104,7 +12119,7 @@ GameObject:
   - component: {fileID: 1872342161}
   - component: {fileID: 1872342160}
   m_Layer: 0
-  m_Name: Camera_GreyScale
+  m_Name: Camera_GrayScale
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12131,7 +12146,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1872342158}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &1872342161
 Camera:
   m_ObjectHideFlags: 0
