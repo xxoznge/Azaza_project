@@ -14,8 +14,11 @@ public class U_Load_UI_Scene : MonoBehaviour
         print("CurrentScene = " + CurrentScene.name);
     }
 
-    private void OnMouseDown()
+    void OnKeyDown()
     {
-        SceneManager.LoadScene(SceneToLoad.name);
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            SceneManager.LoadScene(SceneToLoad.name);
+        }
     }
 }

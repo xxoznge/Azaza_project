@@ -6,9 +6,12 @@ using UnityEngine.SceneManagement;
 public class Load_UI_Scene : MonoBehaviour
 {
     public Object SceneToLoad;
-    private void GetKeyDown()
+
+    void OnKeyDown()
     {
-        //SceneManager.LoadScene("LoadSceneText02");
-        SceneManager.LoadScene(SceneToLoad.name);
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            SceneManager.LoadScene(SceneToLoad.name);
+        }
     }
 }
