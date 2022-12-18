@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class U_Load_UI_Scene : MonoBehaviour
+public class To_UnderGround : MonoBehaviour
 {
     public Object SceneToLoad;
     Scene CurrentScene;

@@ -4,16 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class U_Load_UI_Scene : MonoBehaviour
+public class toUnderGround : MonoBehaviour
 {
     public Object SceneToLoad;
-    Scene CurrentScene;
-
-    void Start()
-    {
-        CurrentScene = gameObject.scene;
-        print("CurrentScene = " + CurrentScene.name);
-    }
     public void OnReTry()
     {
         if (Input.GetKeyDown(KeyCode.U))
@@ -26,3 +19,4 @@ public class U_Load_UI_Scene : MonoBehaviour
         }
     }
 }
+
