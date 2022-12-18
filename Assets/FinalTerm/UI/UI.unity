@@ -429,6 +429,9 @@ GameObject:
   - component: {fileID: 496370509}
   - component: {fileID: 496370508}
   - component: {fileID: 496370507}
+  - component: {fileID: 496370513}
+  - component: {fileID: 496370512}
+  - component: {fileID: 496370511}
   - component: {fileID: 496370506}
   m_Layer: 0
   m_Name: Cube
@@ -446,10 +449,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 496370505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94e3ad0b626082b41a899eb04db69f8d, type: 3}
+  m_Script: {fileID: 11500000, guid: 1ade7a2e61ccf7a4dbe14f4c3dae572b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: {fileID: 0}
+  SceneToLoad: {fileID: 102900000, guid: a6551cc116239c44986e19d90f674b74, type: 3}
 --- !u!65 &496370507
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -526,6 +529,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &496370511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496370505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a2d12ef14b7cc24fb93bb604c735166, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneToLoad: {fileID: 102900000, guid: de8eca69451c32a4489f5b2a9978e644, type: 3}
+--- !u!114 &496370512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496370505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e4a5b4fc9d350a418686aeb7c93fd83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneToLoad: {fileID: 102900000, guid: f09637af8a2fc1a4a84b06cd6c591129, type: 3}
+--- !u!114 &496370513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496370505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4199b568b0e5d34580aa98ab780f848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneToLoad: {fileID: 102900000, guid: e197d4b25915d9841b7f587f53234377, type: 3}
 --- !u!1 &583928752
 GameObject:
   m_ObjectHideFlags: 0
