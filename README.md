@@ -290,7 +290,7 @@ Ceramic-frog - 흑백 셰이더
 > 수림 해야함
 
 - Image Effect Shader와 C# 스크립트를 사용하여 명도(Brightness), 대비(Contrast), 채도(Saturation)를 효과를 만들고 제어할 수 있는가? 
-> 전소정 ( 두개 해주세용 )
+> 전소정
 
 - UI 오브젝트를 사용하여 보다 수월한 상호작용 환경을 제공하는가? 
 > 예지
