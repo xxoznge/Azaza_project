@@ -16,6 +16,6 @@ public class UI_Park : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
