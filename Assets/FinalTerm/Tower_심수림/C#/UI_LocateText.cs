@@ -5,17 +5,35 @@ using UnityEngine.UI;
 
 public class UI_LocateText : MonoBehaviour
 {
-    public GameObject MyGameObject;
+    public Transform PositionReference;
+    public float AdjustHorizontalPosition = 0f;
+    public float AdjustVerticalPosition = 1f;
 
-    // Start is called before the first frame update
-    void Start()
+    Camera TargetCamera;
+
+    private void Start()
     {
-        GetComponent<Text>().text = MyGameObject.name;
+        TargetCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        DisplayAtPosition();
+    }
+
+    void DisplayAtPosition()
+    {
+        if(PositionReference.GetComponent<UI_GameObject_Visible_Controller>().isVisible)
+        {
+            GetComponent<Text>().enabled = true;
+            Vector3 WorldPos = PositionReference.transform.position;
+            Vector2 ScreenPos = TargetCamera.WorldToScreenPoint(WorldPos + Vector3.up * AdjustVerticalPosition + Vector3.right * AdjustHorizontalPosition);
+            transform.position = ScreenPos;
+        }
+        else
+        {
+            GetComponent<Text>().enabled = false;
+        }
     }
 }
+
