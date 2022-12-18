@@ -153,7 +153,15 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+<<<<<<< Updated upstream
     Standalone: com.DefaultCompany.Azazproject
+=======
+    Android: com.Company.ProductName
+    Standalone: com.DefaultCompany.Azazproject
+    Tizen: com.Company.ProductName
+    iPhone: com.Company.ProductName
+    tvOS: com.Company.ProductName
+>>>>>>> Stashed changes
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -317,9 +325,15 @@ PlayerSettings:
   - m_BuildTarget: XboxOnePlayer
     m_GraphicsJobMode: 0
   m_BuildTargetGraphicsAPIs:
+<<<<<<< Updated upstream
   - m_BuildTarget: AndroidPlayer
     m_APIs: 150000000b000000
     m_Automatic: 0
+=======
+  - m_BuildTarget: LinuxStandaloneSupport
+    m_APIs: 15000000
+    m_Automatic: 1
+>>>>>>> Stashed changes
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
     m_Automatic: 1
