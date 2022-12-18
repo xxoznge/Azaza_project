@@ -11,4 +11,11 @@ public class Load_UI_Scene : MonoBehaviour
         //SceneManager.LoadScene("LoadSceneText02");
         SceneManager.LoadScene(SceneToLoad.name);
     }
+    private void OnGUI()
+    {
+        if (Input.GetKeyDown(KeyCode.U))
+        {
+            
+        }
+    }
 }
