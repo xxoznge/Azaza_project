@@ -12,6 +12,8 @@ public class PostEffects_GrayScale : MonoBehaviour
 
     void Start()
     {
+        myShader = Shader.Find("Hidden/PostEffects_GrayScale");    // image effect shader file must have been created
+        myMaterial = new Material(myShader);
     }
 
     private void Update()
