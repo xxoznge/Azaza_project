@@ -155,6 +155,54 @@
 ### 4. A Magnificent Tower 심수림  
 > Design, 3D Object placement,Animation, Shader  
 
+1. Objects
+- 3D object 구조물) 탑(cylinder+cube), 포탈
+- Asset store) 계단, 비너스, 문, 조명
+- Mesh scripting) 다이아몬드
+
+2. Material/Shader
+- 탑) 컬러+텍스처 알비도 셰이더
+- 문, 계단, 3d 다이아몬드, 벽 조명) 컬러+텍스처 알비도, Metalic/Smooth 셰이더
+- 비너스, 계단 꼭대기층) 텍스처 Lerp Range 셰이더
+- 창문) 텍스처 셰이더
+- 포탈) 투명 메터리얼
+
+3. Animation
+- 천국가는 문 - hinged door
+- 다이아몬드 - 로테이션
+
+4. Image effect shader
+- Overlay) Film camera style texture
+
+5. C# Script - LoadtoScene
+- 탑-지상) 포탈 - 충돌 콜라이더 cs
+- 탑-지하) 조각상 - 마우스 클릭 cs
+- 탑-천국) 문 - 충돌 콜라이더 cs
+
+6. C# Script - Teleport
+- 탑 1층 - 계단 꼭대기) 다이아몬드 오브젝트 충돌 시 이동 cs
+
+7. C# Script - Post Effect
+- Overlay) 텍스쳐 이용
+
+8. Light
+- 조각상에 스포트라이트
+- 계단 위 조명 스포트라이트
+
+9. UI text
+- 탑 입구 포탈 “포탈을 통해 지상으로 이동합니다.”
+- 1층 조각상 “클릭 시 지하로 이동합니다.”
+- 계단 위 문 ”포탈을 통해 천국으로 이동합니다.”
+- 다이아몬드 오브젝트 “계단 꼭대기로 이동합니다.”
+
+10. Music
+- 각 씬 별 백그라운드 뮤직O
+- 포탈에 가까이 갈 시 그 씬 뮤직 흘러나오도록
+- 효과음(조각상 클릭시(웅장하고 무거운), 문 여는 소리 등) 
+
+11. Camera
+- 천국으로 갈 때 화면 밝아지기? - 미완
+
 
 ### 4. FPS Controller Interaction  / Camera / Mirror
 > 이소정, 김예지, 심수림
