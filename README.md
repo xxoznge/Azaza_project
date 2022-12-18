@@ -1,6 +1,10 @@
 # Azaza Project
 
 2022 SSWU ConputerGraphics Project  
+- xxoznge 이소정
+- YeJiKim06  김예지
+- Surim Shim 심수림
+- hlytw05 전소정
 
 ### STROY  
 
