@@ -50,35 +50,7 @@ Ceramic-frog - 흑백 셰이더
 
 ### 3. Underground Scene  
 > Design, 3D Object placement,Animation, Shader 이소정  
-- 지하에 있는 길을 찾지못할 정도로 큰 산 
-- TREASURE  
-> 보물을 찾기위해 지하세계로 찾아온다.  
-- WITCH CATSTLE  
-> 보물의 주인 마녀가 사는 성  
-> 마녀는 저주를 받고 동상으로 변했다.  
-> 불을 뿜는 용과 날아다니는 용이 살고 있다. 
-- CAVE  
-> 곰이 살고 있는 동굴  
-> 들어가면 살아나오지 못한다.  
-- LAKE
-> 산 위에 있는 호수  
-> 집과 낡은 배, 상어가 살고 있다.  
-- HOUSE  
-> 보물을 찾으러 온 사람이 살던 집  
-> 마녀를 피해 보물을 훔치려했지만 늙어서 죽었다.  
-- GRAVE  
-> 마녀로 인해 죽은 사람을 묻어둔 무덤
-- TOWER
-> 다른 세계에서 넘어올 수 있는 탑  
-> 긴 계단으로 이어져있다.  
-> 재생시키면 다이아몬드 오브젝트가 등장한다. 
-- WATERFALL  
-> 호수와 이어져있는 폭포  
-- FERRIS WHEEL  
-> 해골이 걸려있는 관람차  
-- TREE  
-> 재생시키고 스페이스바를 누르면 돌아가는 바람개비가 달린 큰 나무  
-> 나무 뒤에는 거울이 있다. 
+> 보물이 숨겨져있는 지하세계  
 
 1. terrain 구축
 - Underground Scene
@@ -86,9 +58,9 @@ Ceramic-frog - 흑백 셰이더
 - Raise or Lower Terrain 
 - Paint Texture로 3개 이상의 Layer 
 - Set Height
- - Smooth Height 
- - Paint Tree로 3개 이상 
- - Water를 활용하여 강, 호수, 바다 
+- Smooth Height 
+- Paint Tree로 3개 이상 
+- Water를 활용하여 강, 호수, 바다 
 
 2. 마녀가 사는 성 : 보물의 주인 / 마녀는 저주에 걸려서 동상이 됨. 
 
@@ -112,10 +84,9 @@ Ceramic-frog - 흑백 셰이더
 4. 움막집 : 사람이 살다가 죽음 / 보물 훔쳐가려고 기회만 노리다가 늙어서 죽음
 
 - 움막집 : 쉐이더 완료
-- 불 : 쉐이더 완료
+- 불 : 쉐이더 ( 불이 움직임 )
 - 해골 : 쉐이더 완료
 - 무너진 집 : 쉐이더 완료
-- 정자 : 쉐이더 완료
 
 
 5. 동굴 : 보물이 있는 줄 알고 들어가지만 사나운 곰이 있음
@@ -155,7 +126,7 @@ Ceramic-frog - 흑백 셰이더
 
 
 ### 4. FPS Controller Interaction  / Camera / Mirror
-> 이소정  
+> 이소정, 김예지, 
 
 ### 6. Minimap / UI Text
 - Scene 내부 사용 메뉴얼 포함
