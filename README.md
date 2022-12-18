@@ -1,43 +1,12 @@
 # Azaza Project
 
 2022 SSWU ConputerGraphics Project  
-- xxoznge 이소정
-- YeJiKim06  김예지
-- Surim Shim 심수림
-- hlytw05 전소정
 
-### STROY  
-
-- 미스테리한 탑
-> 지상세계에 연결되어있던 탑에 들어오니 느껴지는 음산한 분위기.
-> 탑 한가운데 거대한 조각상이 보인다.
-> 조각상을 건드리니 지하세계로 떨어졌다.
-> 다시 탑으로 올라와 이번엔 벽을 따라 길게 이어진 계단을 따라갔다. 
-> 쭉 올라가 계단의 끝에 있는 문을 열어보니 하늘 위 천국과 이어지는 구름이 보인다. 
-
-- 갑자기 탑이 나타난 지상세계  
-> 평범하게 살고있던 어느 마을에 갑자기 거대한 탑이 나타났다.
-> 거대한 탑과 같이 살고있는 일상이 익숙해졌지만 
-> 탑 주변의 보이지 않던 포탈을 건들이니 처음보는 곳으로 이동하게 되었다. 
-
-- 신비로운 천상 세계  
-> 높은 절벽으로 둘러싸여있는 천상세계
-> 건물들은 모두 공중에 띄워져있고 누군가 살고 있는 것 같은 성이 보인다.
-> 그 성을 지키는 두 마리의 용은 동상처럼 보이지만 누군가 다가가면 위협을 가한다.
-> 성의 주인이 키우는 것 같은 고래가 천상세계 하늘을 자유롭게 떠다니고 있다.
-
-- 보물이 숨겨져있는 지하세계  
-> 지하계는 다른 세계와 탑으로 연결되어있다.
-> 탑과 연결되어있는 계단을 내려가면 미로같은 산을 헤매게 된다. 
-> 지하세계에는 모두가 원하는 보물이 있다.
-> 이 보물은 마녀가 지키고 있어 지금까지 아무도 차지하지 못하고 있었다.
-> 하지만 보물을 지키던 마녀는 저주를 받아 동상이 되었고 주인없는 보물을 훔치기 위해 지상계의 사람들이 몰려들게 되었다. 
-
-### 1. Earthy Scene 김예지  
-> Design, 3D Object placement,Animation, Shader 
+### 1. Earthy Scene  
+> Design, 3D Object placement,Animation, Shader 김예지  
 1. Terrain 구축
 
-*  Earth Scene
+* Earth Scene
 *  Terrain 추가
 *  Raise or Lower Terrain 적용
 *  Paint Texture로 6개의 Layer 적용
@@ -59,14 +28,15 @@
 	  파티클의 Water-BigSplash를 이용하여 물이 튀는 형상 표현
 * 호수 : WaterBasicDaytime을 이용하여 호수 제작
 
-* 조각상 
-- Format FBX - 금속 질감의 Shader 
-- Ceramic-frog - 흑백 셰이더
+* 조각상 : 	
+Format FBX - 금속 질감의 Shader 
+		
+Ceramic-frog - 흑백 셰이더
 
 4. 학교 - 3D object 제작
 
 * 펜스 : 학교로 들어갈 수 있도록 입구가 움직이도록 제작
-* 학교 : 1층과 2층을 이동할 수 있도록 계단 제작
+*학교 : 1층과 2층을 이동할 수 있도록 계단 제작
 
 5. 도시
 
@@ -78,31 +48,13 @@
 * Invert : Display 3
 
 
-### 2. Heaven Scene 전소정 
-> Design, 3D Object placement,Animation, Shader   
-1. Terrain
-- cloud, mountain, mountain2 3개의 terrain 사용
-- paint texture, Raise or Lower Terrain으로 여러개의 레이어 사용, smooth height 사용
+### 2. Heaven Scene  
+> Design, 3D Object placement,Animation, Shader  전소정  
+- Castle
+- Island
 
-2. Material/Shader
-- 배, 성(메인, 미니), 타워: 텍스쳐 쉐이더 사용
-- 구름: contrast 조절
-- 용: brightness 조절
-- 고래: saturation 조절
-
-3. C# Script 
-- PostEffect_Blend 적용 -> Camera
-- PostEffect_GrayScale 적용 ->Camera_for_MiniMap 
-
-4. Animation
-- 구름 상하 움직임 애니메이션 적용
-- 배 앞뒤 움직임 애니메이션 적용
-
-5. Light
-- 씬 전체 천상 분위기 조성을 위한 Directional Light 설정
-
-### 3. Underground Scene 이소정 
-> Design, 3D Object placement,Animation, Shader  
+### 3. Underground Scene  
+> Design, 3D Object placement,Animation, Shader 이소정  
 > 보물이 숨겨져있는 지하세계  
 
 1. terrain 구축
@@ -174,79 +126,28 @@
 - 폭포 : 흘러내리는 "폭포" Shader
 
 
-### 4. A Magnificent Tower 심수림  
-> Design, 3D Object placement,Animation, Shader  
-
-1. Objects
-- 3D object 구조물) 탑(cylinder+cube), 포탈
-- Asset store) 계단, 비너스, 문, 조명
-- Mesh scripting) 다이아몬드
-
-2. Material/Shader
-- 탑) 컬러+텍스처 알비도 셰이더
-- 문, 계단, 3d 다이아몬드, 벽 조명) 컬러+텍스처 알비도, Metalic/Smooth 셰이더
-- 비너스, 계단 꼭대기층) 텍스처 Lerp Range 셰이더
-- 창문) 텍스처 셰이더
-- 포탈) 투명 메터리얼
-
-3. Animation
-- 천국가는 문 - hinged door
-- 다이아몬드 - 로테이션
-
-4. Image effect shader
-- Overlay) Film camera style texture
-
-5. C# Script - LoadtoScene
-- 탑-지상) 포탈 - 충돌 콜라이더 cs
-- 탑-지하) 조각상 - 마우스 클릭 cs
-- 탑-천국) 문 - 충돌 콜라이더 cs
-
-6. C# Script - Teleport
-- 탑 1층 - 계단 꼭대기) 다이아몬드 오브젝트 충돌 시 이동 cs
-
-7. C# Script - Post Effect
-- Overlay) 텍스쳐 이용
-
-8. Light
-- 조각상에 스포트라이트
-- 계단 위 조명 스포트라이트
-
-9. UI text
-- 탑 입구 포탈 “포탈을 통해 지상으로 이동합니다.”
-- 1층 조각상 “클릭 시 지하로 이동합니다.”
-- 계단 위 문 ”포탈을 통해 천국으로 이동합니다.”
-- 다이아몬드 오브젝트 “계단 꼭대기로 이동합니다.”
-
-10. Music
-- 각 씬 별 백그라운드 뮤직O
-- 포탈에 가까이 갈 시 그 씬 뮤직 흘러나오도록
-- 효과음(조각상 클릭시(웅장하고 무거운), 문 여는 소리 등) 
-
-11. Camera
-- 천국으로 갈 때 화면 밝아지기
+### 4. A Magnificent Tower
+> Design, 3D Object placement,Animation, Shader  심수림  
 
 
 ### 4. FPS Controller Interaction  / Camera / Mirror
-> 이소정, 김예지, 심수림
+> 이소정, 김예지, 
 
 ### 6. Minimap / UI Text
 - Scene 내부 사용 메뉴얼 포함
 > 김예지  
 
-### 7. Sound / Music  
+### 7. Light  
+> 전소정  
+
+### 8. Sound / Music  
  > 심수림  
  
-### 8. 인덱스 씬 (또는 인덱스 캔버스) --> 일종의 사이트 맵 기능 
+### 9. 인덱스 씬 (또는 인덱스 캔버스) --> 일종의 사이트 맵 기능 
 - 팀원이 수행한 활동 내역을 확인할 수 있도록 UI를 활용하여 제작할 것  
 - "U" 키는 인덱스 씬을 로딩하는 (또는 인덱스 컨버스를 활성화하는) 키로 예약함  
-> 김예지, 심수림  
 
-### 9. Game View의 규격은 Full HD로 정할 것
-
-### 10. Unity 빌드 파일
-
-### 11. 중간 / 최종 발표 PPT / 일정 / 리드미
-> 이소정
+### 10. Game View의 규격은 Full HD로 정할 것
 
 ## 평가요소  
 
@@ -263,7 +164,7 @@
 > 전소정, 이소정, 심수림 
 
 - 런타임 중에 씬을 바꿀 수 있는가? 
-> 수림
+> 수림 작업중
 
 - Terrain 오브젝트를 씬에 추가할 수 있는가? 
 > 이소정 예지
@@ -308,7 +209,7 @@
 > 예지 수림
 
 - 머티리얼을 통해 변수를 입력 받아 밝기(_Brightness)를 제어할 수 있는 셰이더를 만들 수 있는가? 
-> 수림
+> 수림 작업중
 
 - 금속 질감의 Shader(Metalic, Smooth)를 만들 수 있는가?
 > 이소정 수림
@@ -338,7 +239,7 @@
 > 이소정
 
 - Post-Process Layer 및 Post-Process Volume 컴포넌트를 사용하여 카메라에 후처리 효과를 줄 수 있는가? 
-> 
+> 소정
 
 - 카메라를 사용하여 미니맵을 만들 수 있는가? 
 > 예지
@@ -353,16 +254,16 @@
 > 수림
 
 - Image Effect Shader와 C# 스크립트를 사용하여 무채색(GrayScale) 효과를 만들 수 있는가? 
-> 전소정
+> 소정
 
 - Image Effect Shader와 C# 스크립트를 사용하여 이미지 합성(Blend) 효과를 만들 수 있는가? 
-> 전소정
+> 소정
 
 - Image Effect Shader와 C# 스크립트를 사용하여 이미지 오버레이(Overlay) 효과를 만들 수 있는가? 
 > 예지 
 
 - Image Effect Shader와 C# 스크립트를 사용하여 멀티 패스(Multi-Pass)를 효과를 만들고 제어할 수 있는가? 
-> 수림
+> 수림 해야함
 
 - Image Effect Shader와 C# 스크립트를 사용하여 명도(Brightness), 대비(Contrast), 채도(Saturation)를 효과를 만들고 제어할 수 있는가? 
 > 전소정

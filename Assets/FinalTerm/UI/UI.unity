@@ -1925,6 +1925,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1877876179}
+  - component: {fileID: 1877876180}
   m_Layer: 5
   m_Name: Tower
   m_TagString: Untagged
@@ -1953,6 +1954,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1877876180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877876178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 501a1c0474dba74498824158e5e4ce8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyGameObject: {fileID: 11368754}
 --- !u!1 &1958193240
 GameObject:
   m_ObjectHideFlags: 0
@@ -2258,7 +2272,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC9C0\uC0C1\uC73C\uB85C \uC774\uB3D9\uD558\uB824\uBA74 J\uD0A4\uB97C
+  m_Text: "\uC9C0\uC0C1\uC73C\uB85C \uC774\uB3D9\uD558\uB824\uBA74 H\uD0A4\uB97C
     \uB204\uB974\uC138\uC694.\n\n<\uC9C0\uC0C1 \uC2A4\uD1A0\uB9AC>\n\uD3C9\uBC94\uD558\uAC8C
     \uC0B4\uACE0\uC788\uB358 \uC5B4\uB290 \uB9C8\uC744\uC5D0 \uAC11\uC790\uAE30 \uAC70\uB300\uD55C
     \uD0D1\uC774 \uC0DD\uACBC\uB2E4. \uAC70\uB300\uD55C \uD0D1\uACFC \uAC19\uC774
