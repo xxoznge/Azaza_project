@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 724d94a0c28e6464081e9961b8db77a5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - BlendTexture: {fileID: 2800000, guid: 96244cbb46a994473887b6ff9e8df130, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
