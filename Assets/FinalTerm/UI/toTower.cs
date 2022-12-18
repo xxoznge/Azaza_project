@@ -6,7 +6,15 @@ using UnityEngine.UI;
 
 public class toTower : MonoBehaviour
 {
+    
     public Object SceneToLoad;
+    Scene CurrentScene;
+
+    void Start()
+    {
+        CurrentScene = gameObject.scene;
+        print("CurrentScene = " + CurrentScene.name);
+    }
     public void OnReTry()
     {
         if (Input.GetKeyDown(KeyCode.U))
@@ -19,3 +27,4 @@ public class toTower : MonoBehaviour
         }
     }
 }
+

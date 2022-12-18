@@ -7,13 +7,6 @@ using UnityEngine.UI;
 public class To_UnderGround : MonoBehaviour
 {
     public Object SceneToLoad;
-    Scene CurrentScene;
-
-    void Start()
-    {
-        CurrentScene = gameObject.scene;
-        print("CurrentScene = " + CurrentScene.name);
-    }
     public void OnReTry()
     {
         if (Input.GetKeyDown(KeyCode.U))
