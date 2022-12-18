@@ -8626,7 +8626,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1381167475
@@ -11589,6 +11589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b90fb95e8bde1fa488c3383294507a6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: {fileID: 102900000, guid: 13ab1657db2bf9345b10c09c6b3a4eb2, type: 3}
 --- !u!1001 &1836533618
 PrefabInstance:
   m_ObjectHideFlags: 0
