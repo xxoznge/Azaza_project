@@ -29569,7 +29569,7 @@ GameObject:
   - component: {fileID: 1182681451242147708}
   - component: {fileID: 4002941175620942774}
   m_Layer: 0
-  m_Name: Medieval LadyFBXfbx
+  m_Name: Medieval LadyFBXfbx_OutLine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32735,7 +32735,7 @@ GameObject:
   - component: {fileID: 569855870290037548}
   - component: {fileID: 2309361089871085542}
   m_Layer: 0
-  m_Name: Ceramic-frog_low-poly
+  m_Name: Ceramic-frog_BW
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60291,7 +60291,7 @@ GameObject:
   - component: {fileID: 6059861345542161306}
   - component: {fileID: 8357559957959849808}
   m_Layer: 0
-  m_Name: Format_FBX
+  m_Name: Format_FBX_Metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
