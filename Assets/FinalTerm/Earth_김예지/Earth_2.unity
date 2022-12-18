@@ -3436,6 +3436,7 @@ GameObject:
   - component: {fileID: 366124200}
   - component: {fileID: 366124199}
   - component: {fileID: 366124198}
+  - component: {fileID: 366124201}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -3501,6 +3502,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &366124201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366124197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fc5df736f6b0b74c8c40feb80dd2448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &385745491
 GameObject:
   m_ObjectHideFlags: 0
@@ -7986,6 +7999,7 @@ GameObject:
   m_Component:
   - component: {fileID: 810852285}
   - component: {fileID: 810852286}
+  - component: {fileID: 810852287}
   m_Layer: 6
   m_Name: Circle
   m_TagString: Untagged
@@ -8059,6 +8073,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &810852287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 810852284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e66c0b0de4d45c40bfd434876d09e28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SceneToLoad: {fileID: 102900000, guid: 13ab1657db2bf9345b10c09c6b3a4eb2, type: 3}
 --- !u!1 &814461087
 GameObject:
   m_ObjectHideFlags: 0
