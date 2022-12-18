@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GreyScale : MonoBehaviour
+[ExecuteInEditMode]
+
+public class Gray : MonoBehaviour
 {
     Shader myShader;        // image effect shader 
     Material myMaterial;
@@ -11,7 +13,7 @@ public class GreyScale : MonoBehaviour
 
     void Start()
     {
-        myShader = Shader.Find("My/PostEffects/GrayScale");    // image effect shader file must have been created
+        myShader = Shader.Find("Hidden/GrayScale");    // image effect shader file must have been created
         myMaterial = new Material(myShader);
     }
 
@@ -34,3 +36,4 @@ public class GreyScale : MonoBehaviour
         Graphics.Blit(source, destination, myMaterial);
     }
 }
+
