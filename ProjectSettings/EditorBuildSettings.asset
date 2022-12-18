@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/FinalTerm/UI/UI.unity
     guid: 13ab1657db2bf9345b10c09c6b3a4eb2
   - enabled: 1
-    path: "Assets/FinalTerm/Earth_\uAE40\uC608\uC9C0/Earth_2.unity"
-    guid: e197d4b25915d9841b7f587f53234377
-  - enabled: 1
     path: "Assets/FinalTerm/Tower_\u1109\u1175\u11B7\u1109\u116E\u1105\u1175\u11B7/Tower.unity"
     guid: de8eca69451c32a4489f5b2a9978e644
+  - enabled: 1
+    path: "Assets/FinalTerm/Earth_\uAE40\uC608\uC9C0/Earth_2.unity"
+    guid: e197d4b25915d9841b7f587f53234377
   - enabled: 1
     path: "Assets/FinalTerm/UnderGround_\uC774\uC18C\uC815/Underground 1.unity"
     guid: a6551cc116239c44986e19d90f674b74
