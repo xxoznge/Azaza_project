@@ -42,6 +42,11 @@ Ceramic-frog - 흑백 셰이더
 
 * 도시 : 분질적 음영을 적용
 
+6. Image Effect Shader
+
+* Overlay : Display 2
+* Invert : Display 3
+
 
 ### 2. Heaven Scene  
 > Design, 3D Object placement,Animation, Shader  전소정  
