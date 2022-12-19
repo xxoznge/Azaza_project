@@ -83,10 +83,25 @@ Ceramic-frog - 흑백 셰이더
 * Invert : Display 3
 
 
-### 2. Heaven Scene  
-> Design, 3D Object placement,Animation, Shader  전소정  
-- Castle
-- Island
+### 2. Heaven Scene 전소정 
+> Design, 3D Object placement,Animation, Shader   
+1. Terrain
+- cloud, mountain, mountain2 3개의 terrain 사용
+- paint texture, Raise or Lower Terrain으로 여러개의 레이어 사용, smooth height 사용
+
+2. Material/Shader
+- 배, 성(메인, 미니), 타워: 텍스쳐 쉐이더 사용
+- 구름: contrast 조절
+- 용: brightness 조절
+- 고래: saturation 조절
+
+3. C# Script 
+- PostEffect_Blend 적용 -> Camera
+- PostEffect_GrayScale 적용 ->Camera_for_MiniMap 
+
+4. Animation
+- 구름 상하 움직임 애니메이션 적용
+- 배 앞뒤 움직임 애니메이션 적용
 
 ### 3. Underground Scene  
 > Design, 3D Object placement,Animation, Shader 이소정  
