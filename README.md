@@ -182,7 +182,7 @@ Ceramic-frog - 흑백 셰이더
 - 폭포 : 흘러내리는 "폭포" Shader
 
 
--### 4. A Magnificent Tower 심수림  
+### 4. A Magnificent Tower 심수림  
 > Design, 3D Object placement,Animation, Shader  
 
 1. Objects
