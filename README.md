@@ -4,7 +4,7 @@
 
 - xxoznge 이소정
 - YeJiKim06  김예지
-- Surim Shim 심수림
+- surimshim 심수림
 - hlytw05 전소정
 
 
