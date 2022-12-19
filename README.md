@@ -365,10 +365,10 @@ Ceramic-frog - 흑백 셰이더
 > 수림
 
 - Image Effect Shader와 C# 스크립트를 사용하여 무채색(GrayScale) 효과를 만들 수 있는가? 
-> 소정
+> 전소정
 
 - Image Effect Shader와 C# 스크립트를 사용하여 이미지 합성(Blend) 효과를 만들 수 있는가? 
-> 소정
+> 전소정
 
 - Image Effect Shader와 C# 스크립트를 사용하여 이미지 오버레이(Overlay) 효과를 만들 수 있는가? 
 > 예지 
