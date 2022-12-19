@@ -103,6 +103,12 @@ Ceramic-frog - 흑백 셰이더
 - 구름 상하 움직임 애니메이션 적용
 - 배 앞뒤 움직임 애니메이션 적용
 
+5. Light
+- 씬 전체 천상 분위기 조성을 위한 Directional Light 설정
+
+### 3. Underground Scene 이소정 
+> Design, 3D Object placement,Animation, Shader  
+
 ### 3. Underground Scene  
 > Design, 3D Object placement,Animation, Shader 이소정  
 > 보물이 숨겨져있는 지하세계  
