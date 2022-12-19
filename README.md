@@ -7,40 +7,16 @@
 - Surim Shim 심수림
 - hlytw05 전소정
 
-### STROY  
-
-- 미스테리한 탑
-> 지상세계에 연결되어있던 탑에 들어오니 느껴지는 음산한 분위기.
-> 탑 한가운데 거대한 조각상이 보인다.
-> 조각상을 건드리니 지하세계로 떨어졌다.
-> 다시 탑으로 올라와 이번엔 벽을 따라 길게 이어진 계단을 따라갔다. 
-> 쭉 올라가 계단의 끝에 있는 문을 열어보니 하늘 위 천국과 이어지는 구름이 보인다. 
-
-- 갑자기 탑이 나타난 지상세계  
-> 평범하게 살고있던 어느 마을에 갑자기 거대한 탑이 나타났다.
-> 거대한 탑과 같이 살고있는 일상이 익숙해졌지만 
-> 탑 주변의 보이지 않던 포탈을 건들이니 처음보는 곳으로 이동하게 되었다. 
-
-- 신비로운 천상 세계  
-> 높은 절벽으로 둘러싸여있는 천상세계
-> 건물들은 모두 공중에 띄워져있고 누군가 살고 있는 것 같은 성이 보인다.
-> 그 성을 지키는 두 마리의 용은 동상처럼 보이지만 누군가 다가가면 위협을 가한다.
-> 성의 주인이 키우는 것 같은 고래가 천상세계 하늘을 자유롭게 떠다니고 있다.
-
-- 보물이 숨겨져있는 지하세계  
-> 지하계는 다른 세계와 탑으로 연결되어있다.
-> 탑과 연결되어있는 계단을 내려가면 미로같은 산을 헤매게 된다. 
-> 지하세계에는 모두가 원하는 보물이 있다.
-> 이 보물은 마녀가 지키고 있어 지금까지 아무도 차지하지 못하고 있었다.
-> 하지만 보물을 지키던 마녀는 저주를 받아 동상이 되었고 주인없는 보물을 훔치기 위해 지상계의 사람들이 몰려들게 되었다. 
 
 ### 1. Earthy Scene 김예지  
 > Design, 3D Object placement,Animation, Shader 
 
-### 1. Earthy Scene  
-> Design, 3D Object placement,Animation, Shader 김예지  
-1. Terrain 구축
+지상으로 이동하려면 J키를 누르세요.
 
+<지상 스토리>
+> 평범하게 살고있던 어느 마을에 갑자기 거대한 탑이 생겼다. 거대한 탑과 같이 살고있는 일상이 익숙해졌지만 탑 주변의 보이지 않는 포탈을 건들이니 처음보는 곳으로 이동된다.
+
+1. Terrain 구축
 * Earth Scene
 *  Terrain 추가
 *  Raise or Lower Terrain 적용
@@ -50,41 +26,37 @@
 *  Water를 이용하여 호수 생성
 
 2. 탑
-
 * 성 : Normal Map 셰이더 적용
 * 포탈 : 계단 옆 쪽에 있는 포탈을 사용하면 UnderGround Scene으로 이동
 	   탑 앞의 포탈을 이용하여 Tower Scene으로 이동
 * 계단 : Set Height를 이용하여 탑으로 향하는 계단 제작
 
 3. 공원
-
 * 분수 : Water 오브젝트 2가지를 이용하여 분수에 고여있는 물 제작
 	  3D 오브젝트와 애니메이션 효과를 이용하여 물방울이 튀는 것을 제작
 	  파티클의 Water-BigSplash를 이용하여 물이 튀는 형상 표현
 * 호수 : WaterBasicDaytime을 이용하여 호수 제작
-
-* 조각상 : 	
-Format FBX - 금속 질감의 Shader 
-		
-Ceramic-frog - 흑백 셰이더
+* 조각상 : 	Format FBX - 금속 질감의 Shader, Ceramic-frog - 흑백 셰이더
 
 4. 학교 - 3D object 제작
-
 * 펜스 : 학교로 들어갈 수 있도록 입구가 움직이도록 제작
 *학교 : 1층과 2층을 이동할 수 있도록 계단 제작
 
 5. 도시
-
 * 도시 : 분질적 음영을 적용
 
 6. Image Effect Shader
-
 * Overlay : Display 2
 * Invert : Display 3
 
 
 ### 2. Heaven Scene 전소정 
 > Design, 3D Object placement,Animation, Shader   
+천상으로 이동하려면 K키를 누르세요.
+
+<천상 스토리>
+> 높은 절벽으로 둘러싸여있는 천상 세계. 건물들은 모두 공중에 띄워져 있고, 누군가 살고 있는 것 같은 성이 보인다. 그 성을 지키는 두 마리의 용은 동상처럼 보이지만 누군가 다가가면 위협을 가한다. 성의 주인이 키우는 것 같은 고래가 천상 세계 하늘을 자유롭게 떠다니고 있다.
+
 1. Terrain
 - cloud, mountain, mountain2 3개의 terrain 사용
 - paint texture, Raise or Lower Terrain으로 여러개의 레이어 사용, smooth height 사용
@@ -95,9 +67,9 @@ Ceramic-frog - 흑백 셰이더
 - 용: brightness 조절
 - 고래: saturation 조절
 
-3. C# Script 
+3. C# Script
 - PostEffect_Blend 적용 -> Camera
-- PostEffect_GrayScale 적용 ->Camera_for_MiniMap 
+- PostEffect_GrayScale 적용 ->Camera_for_MiniMap
 
 4. Animation
 - 구름 상하 움직임 애니메이션 적용
@@ -106,49 +78,48 @@ Ceramic-frog - 흑백 셰이더
 5. Light
 - 씬 전체 천상 분위기 조성을 위한 Directional Light 설정
 
+
 ### 3. Underground Scene 이소정 
 > Design, 3D Object placement,Animation, Shader  
 
-### 3. Underground Scene  
-> Design, 3D Object placement,Animation, Shader 이소정  
-> 보물이 숨겨져있는 지하세계  
+지하로 이동하려면 J키를 누르세요.
+
+<지하 스토리>
+> 보물이 숨겨져있는 지하세계. 지하세계는 다른 세계와 탑으로 연결되어 있으며 탑과 연결되어있는 계단을 내려가면 미로같은 산을 헤매게 된다. 지하세계에는 모두가 원하는 보물이 있는데 이 보물을 마녀가 지키고 있어 지금까지 아무도 차지하지 못하고 있었다. 하지만 보물을 지키던 마녀는 저주를 받아 동상이 되었고 주인없는 보물을 훔치기 위해 지상의 사람들이 몰려들게 되었다.
 
 1. terrain 구축
 - Underground Scene
 - Terrain 추가
-- Raise or Lower Terrain 
-- Paint Texture로 3개 이상의 Layer 
+- Raise or Lower Terrain
+- Paint Texture로 3개 이상의 Layer
 - Set Height
-- Smooth Height 
-- Paint Tree로 3개 이상 
-- Water를 활용하여 강, 호수, 바다 
+ - Smooth Height
+ - Paint Tree로 3개 이상
+- Water를 활용하여 강, 호수, 바다
 
-2. 마녀가 사는 성 : 보물의 주인 / 마녀는 저주에 걸려서 동상이 됨. 
-
+2. 마녀가 사는 성 : 보물의 주인 / 마녀는 저주에 걸려서 동상이 됨.
 - 성 : 쉐이더 완료
 - 용 : 불 뿜는 쉐이더
 - 마녀 : 외곽선을 표시하는 동시에 음영이 분절적
-- 출입문 : 쉐이더 완료 
+- 출입문 : 쉐이더 완료
 - 성 뒤 탑 : 쉐이더 완료
-- 나는 용 : 쉐이더, 애니메이션 
+- 나는 용 : 쉐이더, 애니메이션
 
 3. 보물상자
-
 - 버려진 배 : 쉐이더 완료
 - 보물상자 : 쉐이더 완료
 - 보물들 : 쉐이더 완료
 - 탑 : 쉐이더 완료
-- 가드 : 쉐이더 완료 
+- 가드 : 쉐이더 완료
 - 해골 : 쉐이더 완료
 - 해골바가지 : 쉐이더 완료
 
 4. 움막집 : 사람이 살다가 죽음 / 보물 훔쳐가려고 기회만 노리다가 늙어서 죽음
-
 - 움막집 : 쉐이더 완료
-- 불 : 쉐이더 ( 불이 움직임 )
+- 불 : 쉐이더 완료
 - 해골 : 쉐이더 완료
 - 무너진 집 : 쉐이더 완료
-
+- 정자 : 쉐이더 완료
 
 5. 동굴 : 보물이 있는 줄 알고 들어가지만 사나운 곰이 있음
 - 동굴 : 쉐이더 완료
@@ -158,7 +129,7 @@ Ceramic-frog - 흑백 셰이더
 6. 타워
 - 타워 - 쉐이더
 - 계단 - 쉐이더 ( 텍스처 움직임 )
-- 3d 모델링 다이아몬드 
+- 3d 모델링 다이아몬드
 
 7. 큰 나무
 - 나무 : 금속 질감의 Shader
@@ -171,68 +142,63 @@ Ceramic-frog - 흑백 셰이더
 
 9. 가운데 호수
 - free suburban structure kit 추가
-- 나룻배 - 쉐이더 
+- 나룻배 - 쉐이더
 - 상어 - 쉐이더, Transform 컴포넌트와 관련된 애니메이션
 
 10. 무덤
 - 무덤 : Alpha 값이 있는 Texture의 배경에 다른 Texture
 - 묘비 : NormalMap
 
-11. 폭포 
+11. 폭포
 - 폭포 : 흘러내리는 "폭포" Shader
+
 
 
 ### 4. A Magnificent Tower 심수림  
 > Design, 3D Object placement,Animation, Shader  
 
-1. Objects
-- 3D object 구조물) 탑(cylinder+cube), 포탈
-- Asset store) 계단, 비너스, 문, 조명
-- Mesh scripting) 다이아몬드
+Tower로 이동하려면 L키를 누르세요.
 
-2. Material/Shader
-- 탑) 컬러+텍스처 알비도 셰이더
-- 문, 계단, 3d 다이아몬드, 벽 조명) 컬러+텍스처 알비도, Metalic/Smooth 셰이더
-- 비너스, 계단 꼭대기층) 텍스처 Lerp Range 셰이더
-- 창문) 텍스처 셰이더
-- 포탈) 투명 메터리얼
+<탑 스토리>
+> 탑에 들어서자 느껴지는 음산한 분위기. 탑 한가운데 거대한 조각상이 보인다. 조각상을 건드리니 지하 세계로 떨어졌다. 다시 탑으로 올라와 이번엔 벽을 따라 길게 이어진 계단을 따라갔다. 쭉 올라가 계단의 끝에 있는 문을 열어보니 하늘 위 천국과 이어지는 구름이 보인다.
 
-3. Animation
-- 천국가는 문 - hinged door
-- 다이아몬드 - 로테이션
+1. 탑
+- 지상, 지하, 천상을 이어주는 공간
+- 3D object Cube, Cylinder로 제작
+- 탑 벽, 바닥) 컬러+텍스처 알비도 셰이더
+- 계단, 벽 조명) 컬러+텍스처 알비도, Metalic/Smooth 셰이더
+- 계단 조명에 스포트라이트 조명 배치
+- 어두운 분위기 나타내는 배경음악 사용
 
-4. Image effect shader
-- Overlay) Film camera style texture
+2. 비너스 조각상
+- 클릭하면 지하로 이동하는 오브젝트
+- UI “Venus/클릭 시 지하로 이동합니다.”
+- 텍스처 Lerp Range 셰이더
+- Asset store 오브젝트
+- 마우스 클릭 LoadtoScene C# 스크립트
+- 조각상 위 스포트라이트 조명
 
-5. C# Script - LoadtoScene
-- 탑-지상) 포탈 - 충돌 콜라이더 cs
-- 탑-지하) 조각상 - 마우스 클릭 cs
-- 탑-천국) 문 - 충돌 콜라이더 cs
+3. 탑 입구 포탈
+- 접근하면 지상으로 이동하는 오브젝트
+- UI “Portal/지상으로 이동합니다.”
+- 투명 메터리얼 셰이더
+- 3D object Cube로 제작
+- 텍스처 포토샵으로 직접 제작
+- 오브젝트 충돌 콜라이더 LoadtoScene C# 스크립트
 
-6. C# Script - Teleport
-- 탑 1층 - 계단 꼭대기) 다이아몬드 오브젝트 충돌 시 이동 cs
+4. 다이아몬드
+- 접근하면 계단 꼭대기로 텔레포트하는 오브젝트
+- UI “Diamond/계단 꼭대기로 이동합니다.”
+- Mesh scripting으로 제작한 3D object
+- 오브젝트 충돌 콜라이더 텔레포트 C# 스크립트
 
-7. C# Script - Post Effect
-- Overlay) 텍스쳐 이용
-
-8. Light
-- 조각상에 스포트라이트
-- 계단 위 조명 스포트라이트
-
-9. UI text
-- 탑 입구 포탈 “포탈을 통해 지상으로 이동합니다.”
-- 1층 조각상 “클릭 시 지하로 이동합니다.”
-- 계단 위 문 ”포탈을 통해 천국으로 이동합니다.”
-- 다이아몬드 오브젝트 “계단 꼭대기로 이동합니다.”
-
-10. Music
-- 각 씬 별 백그라운드 뮤직O
-- 포탈에 가까이 갈 시 그 씬 뮤직 흘러나오도록
-- 효과음(조각상 클릭시(웅장하고 무거운), 문 여는 소리 등) 
-
-11. Camera
-- 천국으로 갈 때 화면 밝아지기
-
+5. 문
+- 접근하면 천상으로 이동하는 오브젝트
+- UI “Door/천상으로 이동합니다.”
+- 3D object Cube로 제작
+- Hinged Door 자동문 Animation
+- 컬러+텍스처 알비도, Metalic/Smooth 셰이더
+- 오브젝트 충돌 콜라이더 LoadtoScene C# 스크립트
 
 ### 4. FPS Controller Interaction  / Camera / Mirror
 > 이소정, 김예지, 심수림
