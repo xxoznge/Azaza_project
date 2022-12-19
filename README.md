@@ -235,7 +235,7 @@ Ceramic-frog - 흑백 셰이더
 
 
 ### 4. FPS Controller Interaction  / Camera / Mirror
-> 이소정, 김예지, 
+> 이소정, 김예지, 심수림
 
 ### 6. Minimap / UI Text
 - Scene 내부 사용 메뉴얼 포함
